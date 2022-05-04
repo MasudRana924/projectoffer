@@ -1,0 +1,38 @@
+.menu-div{
+    width:100%;
+    display: flex;
+
+}
+.feature-brand-title{
+    font-size: 25px;
+}
+.menu-img{
+    width:45%;
+    height:100px;
+    margin-left: 15px;
+    border:1px solid gainsboro;
+    padding: 5px;
+    
+}
+.featured-brand-small{
+    display:none;
+}
+@media only screen and (max-width: 400px) {
+
+    .grocery-title{
+        font-size: 18px;
+    }
+    .featured-brand{
+        display:none;
+    }
+    .featured-brand-small{
+        display:block;
+    }
+    .feature-brand-title{
+        margin-top: -20px;
+    }
+    .menu-img{
+        width:100px;
+       margin-right: -10px;
+    }
+}

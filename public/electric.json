@@ -1,0 +1,29 @@
+[
+    {
+      "name": "X70 Pro Cosmic Black",
+      "price": 72990,
+      "img": "https://asia-exshopstatic-vivofs.vivo.com/KuCZNhz3cVxH4yrP/bd/1647757003315/c938f9ed445fdea65a7147b9032d1ead.jpg.webp",
+      "stock": "in stock",
+      "brand": "Vivo",
+      "url":"https://shop.vivo.com/bd/product/2018?_ga=2.75913237.183689097.1648314760-1103019958.1648314760"
+    },
+    {
+      "name": "Apple MacBook Pro ",
+      "price": 280000,
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-inch/macbook-pro-16-inch-01-500x500.jpg",
+      "stock": "in stock",
+      "brand": "Apple",
+      "url":"https://www.startech.com.bd/apple-macbook-pro-16-inch-m1-pro-chip-1tb-ssd-space-gray"
+    },
+    {
+      "name": "WE55RUG (1.397m) UHD ANDROID TV",
+      "price": 94900,
+      "img": "https://waltonbd.com/image/catalog/tv/smart-tv/WE55RUG%20ID%20image/WE55RUG.jpg",
+      "stock": "in stock",
+      "brand": "Walton",
+      "url":"https://waltonbd.com/television/4k-ultra-hd-tv/we55rug"
+
+    }
+    
+   
+  ]

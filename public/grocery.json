@@ -1,0 +1,53 @@
+[
+    {
+      "name": "কিশোয়ান প্রিমিয়াম ঘি 900 গ্রাম",
+      "price": 1040,
+      "img": "https://static-01.daraz.com.bd/p/b078c1d411b9b032419a5c91a4cbdb8f.jpg",
+      "stock": "in stock",
+      "brand": "Kishwan",
+      "url":"https://www.daraz.com.bd/products/900-i181990036-s1124850895.html?spm=a2a0e.searchlistcategory.list.1.16584e6fCPPZYJ&search=1"
+    },
+    {
+      "name": "Oillina Skin Care Olive Oil",
+      "price": 129,
+      "img": "https://chaldn.com/_mpimage/oillina-skin-care-olive-oil-100-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79437&q=low&v=1",
+      "stock": "in stock",
+      "brand": "Oillina",
+      "url":"https://www.daraz.com.bd/products/oillina-oil-100ml-i176422237-s1116208941.html?spm=a2a0e.searchlistcategory.list.13.16584e6fCPPZYJ&search=1"
+    },
+    {
+      "name": "Red Tomato",
+      "price": 38,
+      "img": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=low&v=1&m=400&webp=1",
+      "stock": "in stock",
+      "brand": "chaldl",
+      "url":"https://chaldal.com/red-tomato-500-gm"
+
+    },
+    {
+      "name": "Deshi Peyaj",
+      "price": 39,
+      "img": "https://chaldn.com/_mpimage/deshi-peyaj-local-onion-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D52358&q=low&v=1&m=400&webp=1",
+      "stock": "in stock",
+      "brand": "chaldal",
+      "url":"https://chaldal.com/onion-local-1-kg-2"
+    },
+    {
+      "name": "Nestle Coffee Mate Coffee ",
+      "price": 270,
+      "img": "https://chaldn.com/_mpimage/nestle-coffee-mate-coffee-creamer-box-450-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D86032&q=low&v=1&m=400&webp=1",
+      "stock": "in stock",
+      "brand": "Nestle",
+      "url":"https://chaldal.com/nestle-coffee-mate-coffee-creamer-box-450-gm"
+    },
+    {
+      "name": "Pran Hot Tomato Sauce",
+      "price": 98,
+      "img": "https://chaldn.com/_mpimage/pran-hot-tomato-sauce-340-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D47538&q=low&v=1&m=400&webp=1",
+      "stock": "in stock",
+      "brand": "Pran",
+      "url":"https://chaldal.com/pran-hot-tomato-sauce-340-gm-5"
+
+    }
+   
+  ]

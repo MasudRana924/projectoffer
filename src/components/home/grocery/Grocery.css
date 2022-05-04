@@ -1,0 +1,100 @@
+.grocery-header{
+    display: flex;
+    justify-content: space-between;
+}
+.grocery-title{
+    font-size: 28px;
+}
+.grocery-brand-section{
+    display: flex;
+}
+.grocery-brand{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.grocery-card{
+    height:200px;
+    width:400px;
+    display:flex;
+   
+}
+.grocery-card-left-section{
+    width:160px;
+}
+.grocery-card-right-section{
+    width:240px;
+}
+.grocery-img{
+    width:160px;
+  margin-top: 30px;
+    height:150px;
+}
+.grocery-name{
+    font-size: 16px;
+    text-align: start;
+    padding-left: 10px;
+}
+.grocery-price{
+    font-size: 14px;
+    text-align: start;
+    padding-left: 10px;
+}
+.btn-cart-grocery{
+    background-color: black;
+    border:black;
+    border-radius: 5px;
+    color:white;
+  width:100px;
+  margin-left: -120px;
+}
+@media only screen and (max-width: 400px) {
+
+    .grocery-card{
+        height:200px;
+        width:350px;
+        display:flex;
+       
+    }
+    .grocery-card-left-section{
+        width:140px;
+       
+    }
+    .grocery-card-right-section{
+        width:210px;
+        
+    }
+    .grocery-img{
+        width:120px;
+      margin-top: 30px;
+        height:150px;
+    }
+    .grocery-name{
+        font-size: 14px;
+        text-align: start;
+       
+       
+    }
+    .grocery-price{
+        font-size: 14px;
+        text-align: start;
+       
+    }
+    .btn-cart-grocery{
+        background-color: black;
+        border:black;
+        border-radius: 5px;
+        color:white;
+      width:100px;
+      margin-left: -90px;
+    }
+    .grocery-title{
+        font-size: 16px;
+        margin-left: -10px;
+    }
+    .grocery-brand{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+
+}

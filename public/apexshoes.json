@@ -1,0 +1,27 @@
+[
+    {
+      "name": "APEX MENS FORMAL SHOE",
+      "price": 3990,
+      "img": "https://storage.sg.content-cdn.io/cdn-cgi/image/width=1000,height=1000,quality=75,format=auto,fit=cover,g=top/in-resources/25c7d1c6-73be-4ff9-b000-0bf110b5c461/Images/ProductImages/Source/91113A05_1_1.jpg",
+      "stock": "available",
+      "brand": "Apex",
+      "url":"https://www.apex4u.com/apex-mens-formal-shoe/p/17475081"
+    },
+    {
+      "name": "Hush Puppies THE GOOD LACEUP Ladies Sneaker",
+      "price": 4999,
+      "img": "https://cdn.shopify.com/s/files/1/2287/9679/products/1_882e218e-0fd2-45a0-a28f-0795ba9a4def_1024x1024.jpg?v=1648896018",
+      "stock": "available",
+      "brand": "Bata",
+      "url":"https://www.batabd.com/collections/sneakers/products/hush-puppies-the-good-laceup-ladies-sneaker?variant=39829064843347"
+    },
+    {
+      "name": "POSH – LOTTO RUNNING SHOES FOR MEN BD",
+      "price": 1490,
+      "img": "https://lotto.expressleather.com.bd/wp-content/uploads/2020/05/Posh-Casual-Shoe-Jogging-Running.jpg",
+      "stock": "available",
+      "brand": "Lotto",
+      "url":"https://lotto.expressleather.com.bd/product/posh-lotto-running-shoes-bd/"
+    }
+ 
+  ]

@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Templeton Formal Shirt",
+      "price": 2495,
+      "img": "https://cdn.shopify.com/s/files/1/0305/5789/6843/products/IMG_2167_grande.jpg?v=1624691115",
+      "stock": "sold out",
+      "brand": "Yellow",
+      "url":"https://www.yellowclothing.net/collections/templeton-shirts/products/m-u-formal-shirt-75"
+    },
+    {
+      "name": "MEN’S ULTRA SLIM-FIT CHECK SHIRT",
+      "price": 2295,
+      "img": "https://richmanbd.com/wp-content/uploads/2021/12/20a-1.jpg",
+      "stock": "available",
+      "brand": "Richman",
+      "url":"https://richmanbd.com/product/mens-ultra-slim-fit-check-shirt-9/5"
+    },
+    {
+      "name": "Full Sleeve Regular Fit Shirt",
+      "price": 1660,
+      "img": "https://easyfashion.com.bd/wp-content/uploads/2022/03/DSC9159-copy.jpg",
+      "stock": "available",
+      "brand": "Easy",
+      "url":"https://easyfashion.com.bd/product/full-sleeve-regular-fit-shirt-summer-collection-2022-7/"
+
+    },
+    {
+      "name": "Templeton Formal Shirt",
+      "price": 2495,
+      "img": "https://cdn.shopify.com/s/files/1/0305/5789/6843/products/IMG_2167_grande.jpg?v=1624691115",
+      "stock": "sold out",
+      "brand": "Yellow",
+      "url":"https://www.yellowclothing.net/collections/templeton-shirts/products/m-u-formal-shirt-75"
+    },
+    {
+      "name": "MEN’S ULTRA SLIM-FIT CHECK SHIRT",
+      "price": 2295,
+      "img": "https://richmanbd.com/wp-content/uploads/2021/12/20a-1.jpg",
+      "stock": "available",
+      "brand": "Richman",
+      "url":"https://richmanbd.com/product/mens-ultra-slim-fit-check-shirt-9/5"
+    },
+    {
+      "name": "Full Sleeve Regular Fit Shirt",
+      "price": 1660,
+      "img": "https://easyfashion.com.bd/wp-content/uploads/2022/03/DSC9159-copy.jpg",
+      "stock": "available",
+      "brand": "Easy",
+      "url":"https://easyfashion.com.bd/product/full-sleeve-regular-fit-shirt-summer-collection-2022-7/"
+
+    }
+   
+  ]

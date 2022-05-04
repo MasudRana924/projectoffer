@@ -1,0 +1,35 @@
+
+
+@media only screen and (max-width: 400px) {
+    .details-card{
+        height:500px;
+        width:100%;
+    }
+    .details-img{
+        height:200px;
+        width:100%;
+    }
+    .details-title{
+        text-align: start;
+        margin-left: 10px;
+    }
+    .details-price{
+        text-align: start;
+        margin-left: 10px;
+    }
+    .details-desc{
+        text-align: start;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .details-btn{
+        background-color: rgba(50, 205, 50, 0.678);
+        border:rgba(50, 205, 50, 0.678);
+        width:200px;
+        border-radius: 10px;
+        color:black;
+        font-weight: 700;
+    }
+      
+    
+}

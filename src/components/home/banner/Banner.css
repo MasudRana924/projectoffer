@@ -1,0 +1,52 @@
+.carousel-section img {
+    height: 400px;
+}
+
+.banner-title {
+    font-size: 20px;
+    text-align: start;
+}
+
+.banner-title-two {
+    font-size: 20px;
+    text-align: start;
+    margin-top: -10px;
+}
+
+.banner-hr {
+    margin-top: -20px;
+}
+
+.banner-text {
+    font-size: 12px;
+    text-align: start;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.small-device-banner {
+    display: none;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .banner-card {
+        display: none;
+    }
+
+    .carousel-section {
+        display: none;
+    }
+
+    .small-device-banner {
+        display: block;
+        height: 280px;
+        margin-top: -5px;
+    }
+
+    .small-img {
+        height: 280px;
+        width:100%;
+    }
+
+}

@@ -1,0 +1,27 @@
+.signup-card{
+    border:1px solid gainsboro;
+    padding-top: 30px;
+    box-shadow: 0 4px 8px 0 gainsboro;
+    transition: 0.3s;
+}
+.google-btn{
+    background-color: green;
+    border:black;
+    color:white;
+    width:50%;
+}
+.facebook-btn{
+    background-color: skyblue;
+    border:black;
+    width:50%;
+    color:white;
+}
+.form-input-section{
+   
+}
+.signup-btn{
+    margin-top: -80px;
+}
+.account-text{
+    font-size: 14px;
+}

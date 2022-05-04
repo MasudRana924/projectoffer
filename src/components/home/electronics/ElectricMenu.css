@@ -1,0 +1,23 @@
+.electronic-menu{
+    display: flex;
+}
+.phones {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.computer {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.tv {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.refrigerator{
+    margin-left: 10px;
+    font-size: 16px; 
+    margin-top: 5px;
+}

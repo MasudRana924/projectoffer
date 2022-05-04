@@ -1,0 +1,6 @@
+.login-card{
+    /* background-color: rgba(0, 128, 0, 0.747); */
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    box-shadow: 0 4px 8px 0 gainsboro;
+    transition: 0.3s;
+}
