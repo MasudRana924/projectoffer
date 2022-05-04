@@ -8,12 +8,15 @@ import img4 from '../../../images/offer4.webp'
 import img5 from '../../../images/offer5.webp'
 import img6 from '../../../images/offer6.webp'
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 import Slider from "react-slick";
 
 const Banner = () => {
+    const search = <FontAwesomeIcon icon={faSearch} className="cart" />
     const settings = {
-      
+
         infinite: true,
         speed: 500,
         autoplay: true,
@@ -110,6 +113,19 @@ const Banner = () => {
 
             {/* forsmalldevices */}
             <div className="small-device-banner">
+                <Container className="header-small-device">
+
+                    <div className="input-section">
+                        <span className="input-section-search"> {search}</span>
+                        <Link to="/search">
+                            <input type="text" placeholder='Search in here' />
+                        </Link>
+                    </div>
+
+
+
+
+                </Container>
                 <Slider {...settings}>
                     <div>
                         <img src={img} alt="" className="small-img" />

@@ -3,10 +3,8 @@ import {
   BrowserRouter,
   Routes,
   Route
-} from "react-router-dom";
-import Header from './components/shared/Header/Header';
+} from "react-router-dom"
 import Home from './components/home/Home';
-import Footer from './components/shared/Footer/Footer';
 import AuthProvider from './context/AuthProvider';
 import SignUp from './components/home/SignUp/SignUp';
 import LognIn from './components/home/LogIn/LognIn';
@@ -29,6 +27,8 @@ import GroceryScreen from './components/screen/productscreen/GroceryScreen';
 import SearchScreen from './components/screen/searchscreen/SearchScreen';
 import Details from './components/home/details/Details';
 import Category from './components/home/category/Category';
+import GroceryCategory from './components/home/category/Grocerries/GroceryCategory';
+import FootwearCategory from './components/home/category/footwear/FootwearCategory';
 
 function App() {
   return (
@@ -39,12 +39,22 @@ function App() {
             <Route path="/" element={<Home />}>
             </Route>
             <Route path="/home" element={<Home />}>
+
+
             </Route>
 
             <Route path="/search" element={<SearchScreen />}></Route>
             <Route path="/signup" element={<SignUp />}></Route>
             <Route path="/login" element={<LognIn />}></Route>
-            <Route path="/category" element={<Category />}></Route>
+            <Route path="/category" element={<Category />}>
+              <Route exact path="/category" element={<GroceryCategory></GroceryCategory>}>
+              </Route>
+              <Route path={`/category/footwear`} element={<FootwearCategory/>}></Route>
+            </Route>
+
+
+
+
             <Route path="/placeorder" element={<PlaceOrder />}></Route>
             <Route path="/shipping" element={<Shipping />}></Route>
             <Route path="/groceryproduct" element={<GroceryScreen />}></Route>
@@ -57,6 +67,7 @@ function App() {
               <Cart />
             </PrivateRoute>}>
             </Route>
+
             <Route path="/checkout" element={<PrivateRoute>
               <CheckOut />
             </PrivateRoute>}>
@@ -68,6 +79,7 @@ function App() {
             <Route path="/dashboard" element={<PrivateRoute>
               <Dashboard />
             </PrivateRoute>}>
+
               <Route exact path="/dashboard" element={<DashboaredHome>
               </DashboaredHome>}>
               </Route>
@@ -94,20 +106,11 @@ function App() {
                 <UpdateProduct></UpdateProduct>
               </AdminRoute>}>
               </Route>
-
               <Route path={`/dashboard/manageorders`} element={<AdminRoute>
                 <ManageOrders></ManageOrders>
               </AdminRoute>}>
               </Route>
-
-
-
-
             </Route>
-
-
-
-
           </Routes>
 
         </BrowserRouter>

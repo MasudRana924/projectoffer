@@ -23,8 +23,8 @@ const SearchScreen = () => {
         let list = localStorage.getItem('recent-search');
         if (list) {
             return JSON.parse(localStorage.getItem('recent-search'));
-        }
-        
+        } 
+
     }
     const [items, setItems] = useState(getRecent());
     console.log(items)
@@ -44,15 +44,15 @@ const SearchScreen = () => {
 
             </div>
             {
-                items  ?< div className="suggestion-section">
-            <p>Recent search</p>
-            <div className="suggestion-btn-section">
-                <button className="recent-btn">
-                    <p>{items}</p>
-                </button>
-            </div>
-        </div> : null
-}
+                items ? < div className="suggestion-section">
+                    <p>Recent search</p>
+                    <div className="suggestion-btn-section">
+                        <button className="recent-btn">
+                            <p>{items}</p>
+                        </button>
+                    </div>
+                </div> : null
+            }
 
             <div className="suggestion-section">
                 <p>Suggestion</p>
@@ -73,11 +73,11 @@ const SearchScreen = () => {
 
 
             <Row xs="2" md="4" className="mt-5">
-                {displayProducts.length === 0 ? < div className="w-25 mx-auto spinner"> <Spinner animation="border" className="spinner" />
+                {displayProducts.length === 0 ? < div className="w-25 mx-auto spinner">Loading <Spinner animation="border" className="spinner" />
                 </div>
 
                     :
-                    displayProducts.map(groceryProduct =><SearchScreens
+                    displayProducts.map(groceryProduct => <SearchScreens
                         groceryProduct={groceryProduct}
                         key={groceryProduct._id}
                     ></SearchScreens>)

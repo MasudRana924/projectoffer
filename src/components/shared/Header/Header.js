@@ -270,16 +270,7 @@ const Header = () => {
 
                 </Row>
             </Container>
-            <Container className="header-small-device">
-                <Link to="/search">
-                <div className="input-section">
-                    <span className="input-section-search"> {search}</span> <input type="text" placeholder='Search in here' />
-                </div>
-                </Link>
-                
-
-
-            </Container>
+          
         </div >
     );
 };
