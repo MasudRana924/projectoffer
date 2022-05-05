@@ -17,8 +17,8 @@ const Category = () => {
                     <Link to="/">{arrow} </Link>
                     <p>Just for you</p>
                     <div className="cart-search">
-                        <Link to="/search"> <span>{search} </span></Link>
-                        <Link to="/cart"> <span className="ms-3">{Cart} </span></Link>
+                        <Link to="/searchh" className="text-decoration-none "> <span>{search} </span></Link>
+                        <Link to="/cart" className="text-decoration-none"> <span className="ms-3">{Cart} </span></Link>
                     </div>
                 </div>
 

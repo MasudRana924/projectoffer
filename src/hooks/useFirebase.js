@@ -28,7 +28,7 @@ const useFirebase = () => {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    const [groceryProduct, setGroceryProduct] = useState([])
+    const [categoryProduct, setCategoryProduct] = useState([])
     
     const HandleFilter = (catItem) => {
         const result = products.filter((catData) => {
@@ -36,8 +36,7 @@ const useFirebase = () => {
             );
         });
         handleClose()
-        setGroceryProduct(result);
-        setDisplayProducts(result)
+        setCategoryProduct(result);
         console.log('result', result)
 
     }
@@ -158,7 +157,7 @@ const useFirebase = () => {
     }
 
     return {
-        products, displayProducts, setDisplayProducts,show,handleShow,handleClose,HandleFilter, groceryProduct,  user, registerUser, logInUser, admin, token, logOut, isLoading,
+        products, displayProducts, setDisplayProducts,show,handleShow,handleClose,HandleFilter, categoryProduct,  user, registerUser, logInUser, admin, token, logOut, isLoading,
         setError, error, handleEmail, handlePass, handleName, setUserName, email, pass, setUser, name, setLoading, cart, setCart
     }
 };

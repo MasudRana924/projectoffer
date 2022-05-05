@@ -313,17 +313,18 @@
         margin-top: 2px;
         font-size: 25px;
         color: gray;
-        margin-left: 10px;
+        margin-left: 15px;
         position: absolute;
         z-index: 1;
     }
 
     .header-small-device input {
         height: 40px;
-        width: 330px;
+        width: 340px;
         border: 1px solid white;
         background-color: white;
         padding-left: 50px;
+        margin-left: 10px;
 
 
     }

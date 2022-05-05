@@ -113,19 +113,15 @@ const Banner = () => {
 
             {/* forsmalldevices */}
             <div className="small-device-banner">
-                <Container className="header-small-device">
+                <div className="header-small-device">
 
                     <div className="input-section">
                         <span className="input-section-search"> {search}</span>
-                        <Link to="/search">
+                        <Link to="/searchh">
                             <input type="text" placeholder='Search in here' />
                         </Link>
                     </div>
-
-
-
-
-                </Container>
+                </div>
                 <Slider {...settings}>
                     <div>
                         <img src={img} alt="" className="small-img" />

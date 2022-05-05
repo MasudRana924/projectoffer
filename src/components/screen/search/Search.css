@@ -1,9 +1,9 @@
-/* @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
     .search-section-small{
        display: flex;
         background-color: limegreen;
         margin-top: -60px;
-        height:60px;
+        height:55px;
         width:400px;
        margin-left: -15px;
        
@@ -17,20 +17,19 @@
         color:black;
         outline-style: none;
         padding-left: 20px;
-       
         border:none;
         font-weight: 400;
     }
     .left-arrow-icon{
        text-decoration: none;
        color:white;
-       margin-top: 20px;
+       margin-top: 22px;
      margin-left: 15px;
-     font-size: 25px;
+     font-size: 20px;
     }
     .search-btn-small{
         position: absolute;
-        margin-top: 21px;
+        margin-top: -11px;
         margin-left: 306px;
         background-color: white;
         height:28px;
@@ -84,4 +83,4 @@
         width:40px;
         color:white;
     }
-} */
+}

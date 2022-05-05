@@ -24,11 +24,12 @@ import AddProduct from './components/dashboard/addproduct/AddProduct';
 import PlaceOrder from './components/screen/PlaceOrder';
 import Shipping from './components/screen/Shipping/Shipping';
 import GroceryScreen from './components/screen/productscreen/GroceryScreen';
-import SearchScreen from './components/screen/searchscreen/SearchScreen';
 import Details from './components/home/details/Details';
 import Category from './components/home/category/Category';
 import GroceryCategory from './components/home/category/Grocerries/GroceryCategory';
 import FootwearCategory from './components/home/category/footwear/FootwearCategory';
+import Search from './components/screen/search/Search';
+import CategoryItems from './components/home/category/categoriesItems/CategoryItems';
 
 function App() {
   return (
@@ -39,13 +40,14 @@ function App() {
             <Route path="/" element={<Home />}>
             </Route>
             <Route path="/home" element={<Home />}>
-
-
             </Route>
 
-            <Route path="/search" element={<SearchScreen />}></Route>
+
+
+            <Route path="/searchh" element={<Search />}></Route>
             <Route path="/signup" element={<SignUp />}></Route>
             <Route path="/login" element={<LognIn />}></Route>
+            <Route path="/findcategory" element={<CategoryItems/>}></Route>
             <Route path="/category" element={<Category />}>
               <Route exact path="/category" element={<GroceryCategory></GroceryCategory>}>
               </Route>
@@ -57,7 +59,6 @@ function App() {
 
             <Route path="/placeorder" element={<PlaceOrder />}></Route>
             <Route path="/shipping" element={<Shipping />}></Route>
-            <Route path="/groceryproduct" element={<GroceryScreen />}></Route>
             <Route path="/details/:productId" element={<Details />}></Route>
 
 
