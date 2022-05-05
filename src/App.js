@@ -23,13 +23,14 @@ import UpdateProduct from './components/dashboard/updateproduct/UpdateProduct';
 import AddProduct from './components/dashboard/addproduct/AddProduct';
 import PlaceOrder from './components/screen/PlaceOrder';
 import Shipping from './components/screen/Shipping/Shipping';
-import GroceryScreen from './components/screen/productscreen/GroceryScreen';
 import Details from './components/home/details/Details';
 import Category from './components/home/category/Category';
 import GroceryCategory from './components/home/category/Grocerries/GroceryCategory';
 import FootwearCategory from './components/home/category/footwear/FootwearCategory';
 import Search from './components/screen/search/Search';
 import CategoryItems from './components/home/category/categoriesItems/CategoryItems';
+import FashionsCategory from './components/home/category/fashions/FashionsCategory';
+import ElectronicsCategory from './components/home/category/electronics/ElectronicsCategory';
 
 function App() {
   return (
@@ -52,6 +53,8 @@ function App() {
               <Route exact path="/category" element={<GroceryCategory></GroceryCategory>}>
               </Route>
               <Route path={`/category/footwear`} element={<FootwearCategory/>}></Route>
+              <Route path={`/category/fashions`} element={<FashionsCategory/>}></Route>
+              <Route path={`/category/electronics`} element={<ElectronicsCategory/>}></Route>
             </Route>
 
 

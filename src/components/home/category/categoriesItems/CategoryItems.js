@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom';
 
 const CategoryItems = () => {
     const { categoryProduct } = useAuth()
-    const arrow = <FontAwesomeIcon icon={faArrowLeft} className="left-arrow-icon" />
-    const Cart = <FontAwesomeIcon icon={faCartPlus} className="search-cart-icon" />
-    const search = <FontAwesomeIcon icon={faSearch} className="search-cart-icon" />
-   
+    const arrow = <FontAwesomeIcon icon={faArrowLeft} className="cate-left-arrow-icon" />
+    const Cart = <FontAwesomeIcon icon={faCartPlus} className="cate-search-cart-icon" />
+    const search = <FontAwesomeIcon icon={faSearch} className="cate-search-cart-icon" />
+
     return (
         <div className="">
             {/* forsmall devices */}
@@ -26,13 +26,16 @@ const CategoryItems = () => {
                 </div>
 
             </div>
-              <Row xs="2">
-             {
-                 categoryProduct.map(catProduct=><FindCategoryItems
-                    catProduct={catProduct}
-                 ></FindCategoryItems>)
-             }
-              </Row>
+            <Row xs="2" className="mt-1">
+                {
+                    categoryProduct.length === 0 ? < div className="w-100 mx-auto spinner mt-5">Products is coming...
+                    </div> : 
+                    categoryProduct.map(catProduct => <FindCategoryItems
+                        catProduct={catProduct}
+                    ></FindCategoryItems>)
+                }
+
+            </Row>
         </div>
     );
 };

@@ -37,8 +37,7 @@ const useFirebase = () => {
         });
         handleClose()
         setCategoryProduct(result);
-        console.log('result', result)
-
+        setDisplayProducts(result)
     }
    
 

@@ -3,11 +3,17 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft, faSearch, faCartPlus } from '@fortawesome/free-solid-svg-icons'
 import { Link, Outlet } from 'react-router-dom';
+import img from '../../../../src/images/grocery.png'
+import img2 from '../../../../src/images/foot.png'
+import img3 from '../../../../src/images/fashion.png'
+import img4 from '../../../../src/images/healthy.png'
+import img5 from '../../../../src/images/electronics.png'
+import img6 from '../../../../src/images/watches.png'
 import './Category.css'
 const Category = () => {
-    const arrow = <FontAwesomeIcon icon={faArrowLeft} className="left-arrow-icon" />
-    const Cart = <FontAwesomeIcon icon={faCartPlus} className="search-cart-icon" />
-    const search = <FontAwesomeIcon icon={faSearch} className="search-cart-icon" />
+    const arrow = <FontAwesomeIcon icon={faArrowLeft} className="cate-left-arrow-icon" />
+    const Cart = <FontAwesomeIcon icon={faCartPlus} className="cate-search-cart-icon" />
+    const search = <FontAwesomeIcon icon={faSearch} className="cate-search-cart-icon" />
     return (
         <div>
 
@@ -27,15 +33,45 @@ const Category = () => {
                 <Row xs="2" >
                     <Col xs="3" className="left-category">
                         <Link to="/category" className="text-decoration-none text-dark">
-                            <p>Groceries</p>
+                            <div className="cateogry-card">
+                                <img src={img} alt="" className="cateogry-card-img" />
+                                <p>Groceries</p>
+                            </div>
+
                         </Link>
-                        <Link to={`/category/footwear`} className="text-decoration-none text-dark"><p>Footwear</p></Link>
+                        <Link to={`/category/footwear`} className="text-decoration-none text-dark">
+                            <div className="cateogry-card">
+                                <img src={img2} alt="" className="cateogry-card-img" />
+                                <p>Footwear</p>
+                            </div>
+                        </Link>
 
-                        <Link to="/" className="text-decoration-none text-dark"><p>Fashions</p></Link>
+                        <Link to={`/category/fashions`} className="text-decoration-none text-dark">
+                            <div className="cateogry-card">
+                                <img src={img3} alt="" className="cateogry-card-img" />
+                                <p>Fashions</p>
+                            </div>
+                        </Link>
 
-                        <Link to="/" className="text-decoration-none text-dark"><p>Health & Beauty</p></Link>
-                        <Link to="/" className="text-decoration-none text-dark"><p>Electronic Devices</p></Link>
-                        <Link to="/" className="text-decoration-none text-dark"><p>Watches</p></Link>
+                        <Link to="/" className="text-decoration-none text-dark">
+                            <div className="cateogry-card">
+                                <img src={img4} alt="" className="cateogry-card-img" />
+                                <p>Health & Beauty</p>
+                            </div>
+                        </Link>
+                        <Link to={`/category/electronics`} className="text-decoration-none text-dark">
+                            <div className="cateogry-card mt-3 pt-3">
+                                <img src={img5} alt="" className="cateogry-card-img" />
+                                <p>Electronics</p>
+                            </div>
+                        </Link>
+
+                        <Link to="/" className="text-decoration-none text-dark">
+                            <div className="cateogry-card mt-5">
+                                <img src={img6} alt="" className="cateogry-card-img" />
+                                <p>Watches</p>
+                            </div>
+                        </Link>
 
 
 
