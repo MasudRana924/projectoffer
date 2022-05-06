@@ -2,12 +2,13 @@ import React from 'react';
 import Banner from './banner/Banner';
 import Menu from './menu/Menu';
 import Offer from './offer/Offer';
-import Shoes from './shoes/Shoes';
+
 import Fashion from './fashion/Fashion';
 import Grocery from './grocery/Grocery';
 import ElectricMenu from './electronics/ElectricMenu';
 import Header from './../shared/Header/Header';
 import Footer from './../shared/Footer/Footer'
+import AllProduct from './shoes/AllProduct';
 
 const Home = () => {
     return (
@@ -16,7 +17,7 @@ const Home = () => {
             <Banner></Banner>
             <Menu></Menu>
             {/* <Offer></Offer> */}
-            <Shoes></Shoes>
+            <AllProduct></AllProduct>
             {/* <Fashion></Fashion>
             <Grocery></Grocery>
             <ElectricMenu></ElectricMenu> */}

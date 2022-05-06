@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useState, useEffect } from "react";
 import {
   BrowserRouter,
   Routes,
@@ -33,8 +34,17 @@ import FashionsCategory from './components/home/category/fashions/FashionsCatego
 import ElectronicsCategory from './components/home/category/electronics/ElectronicsCategory';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("spinner");
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setLoading(false);
+    }, 1000);
+  }
   return (
-    <div className="App">
+
+    !loading && <div className="App">
       <AuthProvider>
         <BrowserRouter>
           <Routes>
@@ -48,13 +58,13 @@ function App() {
             <Route path="/searchh" element={<Search />}></Route>
             <Route path="/signup" element={<SignUp />}></Route>
             <Route path="/login" element={<LognIn />}></Route>
-            <Route path="/findcategory" element={<CategoryItems/>}></Route>
+            <Route path="/findcategory" element={<CategoryItems />}></Route>
             <Route path="/category" element={<Category />}>
               <Route exact path="/category" element={<GroceryCategory></GroceryCategory>}>
               </Route>
-              <Route path={`/category/footwear`} element={<FootwearCategory/>}></Route>
-              <Route path={`/category/fashions`} element={<FashionsCategory/>}></Route>
-              <Route path={`/category/electronics`} element={<ElectronicsCategory/>}></Route>
+              <Route path={`/category/footwear`} element={<FootwearCategory />}></Route>
+              <Route path={`/category/fashions`} element={<FashionsCategory />}></Route>
+              <Route path={`/category/electronics`} element={<ElectronicsCategory />}></Route>
             </Route>
 
 
@@ -119,8 +129,9 @@ function App() {
 
         </BrowserRouter>
       </AuthProvider>
-
     </div>
+
+
   );
 }
 
