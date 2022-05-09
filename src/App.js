@@ -32,6 +32,11 @@ import Search from './components/screen/search/Search';
 import CategoryItems from './components/home/category/categoriesItems/CategoryItems';
 import FashionsCategory from './components/home/category/fashions/FashionsCategory';
 import ElectronicsCategory from './components/home/category/electronics/ElectronicsCategory';
+import HealthCategory from './components/home/category/health/HealthCategory';
+import WatchesCategory from './components/home/category/watches/WatchesCategory';
+import BabiesCategory from './components/home/category/babies/BabiesCategory';
+import HomeCategory from './components/home/category/homecategory/HomeCategory';
+import SportsCategory from './components/home/category/sports/SportsCategory';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -40,7 +45,7 @@ function App() {
     setTimeout(() => {
       spinner.style.display = "none";
       setLoading(false);
-    }, 1000);
+    }, 2000);
   }
   return (
 
@@ -64,58 +69,49 @@ function App() {
               </Route>
               <Route path={`/category/footwear`} element={<FootwearCategory />}></Route>
               <Route path={`/category/fashions`} element={<FashionsCategory />}></Route>
+              <Route path={`/category/health`} element={<HealthCategory />}></Route>
               <Route path={`/category/electronics`} element={<ElectronicsCategory />}></Route>
+              <Route path={`/category/watches`} element={<WatchesCategory />}></Route>
+              <Route path={`/category/baby`} element={<BabiesCategory />}></Route>
+              <Route path={`/category/home`} element={<HomeCategory />}></Route>
+              <Route path={`/category/sports`} element={<SportsCategory />}></Route>
+
             </Route>
-
-
-
-
             <Route path="/placeorder" element={<PlaceOrder />}></Route>
             <Route path="/shipping" element={<Shipping />}></Route>
             <Route path="/details/:productId" element={<Details />}></Route>
 
-
             {/* private route */}
-
             <Route path="/cart" element={<PrivateRoute>
               <Cart />
             </PrivateRoute>}>
             </Route>
-
             <Route path="/checkout" element={<PrivateRoute>
               <CheckOut />
             </PrivateRoute>}>
             </Route>
-
             <Route path="/getmyorders" element={<MyOrders />}></Route>
             <Route path="/postreview" element={<MyReview />}></Route>
-
             <Route path="/dashboard" element={<PrivateRoute>
               <Dashboard />
             </PrivateRoute>}>
-
               <Route exact path="/dashboard" element={<DashboaredHome>
               </DashboaredHome>}>
               </Route>
-
               <Route path="myorders" element={<MyOrders />}></Route>
               <Route path="myreview" element={<MyReview />}></Route>
-
               <Route path={`/dashboard/makeAdmin`} element={<AdminRoute>
                 <MakeAdmin></MakeAdmin>
               </AdminRoute>}>
               </Route>
-
               <Route path={`/dashboard/addproduct`} element={<AdminRoute>
                 <AddProduct></AddProduct>
               </AdminRoute>}>
               </Route>
-
               <Route path={`/dashboard/manageproduct`} element={<AdminRoute>
                 <ManageProducts></ManageProducts>
               </AdminRoute>}>
               </Route>
-
               <Route path={`/dashboard/manageproduct/:productId`} element={<AdminRoute>
                 <UpdateProduct></UpdateProduct>
               </AdminRoute>}>

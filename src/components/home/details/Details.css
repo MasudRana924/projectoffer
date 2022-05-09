@@ -1,35 +1,79 @@
-
-
 @media only screen and (max-width: 400px) {
-    .details-card{
-        height:500px;
-        width:100%;
+    .details-card {
+        height: 500px;
+        width: 100%;
     }
-    .details-img{
-        height:200px;
-        width:100%;
+
+    .details-img {
+        height: 200px;
+        width: 100%;
     }
-    .details-title{
+
+    .details-title {
         text-align: start;
         margin-left: 10px;
     }
-    .details-price{
+
+    .details-price {
         text-align: start;
         margin-left: 10px;
     }
-    .details-desc{
+
+    .details-desc {
         text-align: start;
         margin-left: 10px;
         font-size: 14px;
     }
-    .details-btn{
+
+    .details-btn {
         background-color: rgba(50, 205, 50, 0.678);
-        border:rgba(50, 205, 50, 0.678);
-        width:200px;
+        border: rgba(50, 205, 50, 0.678);
+        width: 200px;
         border-radius: 10px;
-        color:black;
+        color: black;
         font-weight: 700;
     }
-      
-    
+
+    .details-footer {
+        height: 100px;
+        overflow-x: hidden;
+        position: fixed;
+        bottom: -0%;
+        left: 0%;
+        background-color: white;
+        width: 100%;
+
+    }
+
+    .btn-arrow {
+        background-color: #fff;
+        border: white;
+        width: 33%;
+        height: 50px;
+        color:red;
+        font-size: 20px;
+    }
+
+    .btn-buy-now {
+        background-color: orangered;
+        border: orangered;
+        width: 33%;
+        height: 50px;
+        color:white;
+        font-size: 20px;
+        border-radius: 0px 0px 30px 10px;
+    }
+
+    .btn-add-to-cart {
+        background-color: limegreen;
+        border: limegreen;
+        width: 33%;
+        height: 50px;
+        color:white;
+        font-size: 20px;
+        border-radius: 0px 0px 0px 30px;
+    }
+
+
+
 }

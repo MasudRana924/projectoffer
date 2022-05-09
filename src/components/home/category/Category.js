@@ -9,6 +9,9 @@ import img3 from '../../../../src/images/fashion.png'
 import img4 from '../../../../src/images/healthy.png'
 import img5 from '../../../../src/images/electronics.png'
 import img6 from '../../../../src/images/watches.png'
+import img7 from '../../../../src/images/baby.png'
+import img8 from '../../../../src/images/home.png'
+import img9 from '../../../../src/images/sports.png'
 import './Category.css'
 const Category = () => {
     const arrow = <FontAwesomeIcon icon={faArrowLeft} className="cate-left-arrow-icon" />
@@ -53,7 +56,7 @@ const Category = () => {
                             </div>
                         </Link>
 
-                        <Link to="/" className="text-decoration-none text-dark">
+                        <Link to={`/category/health`}  className="text-decoration-none text-dark">
                             <div className="cateogry-card">
                                 <img src={img4} alt="" className="cateogry-card-img" />
                                 <p>Health & Beauty</p>
@@ -66,10 +69,28 @@ const Category = () => {
                             </div>
                         </Link>
 
-                        <Link to="/" className="text-decoration-none text-dark">
+                        <Link to={`/category/watches`}  className="text-decoration-none text-dark">
                             <div className="cateogry-card mt-5">
                                 <img src={img6} alt="" className="cateogry-card-img" />
                                 <p>Watches</p>
+                            </div>
+                        </Link>
+                        <Link to={`/category/baby`}  className="text-decoration-none text-dark">
+                            <div className="cateogry-card mt-3">
+                                <img src={img7} alt="" className="cateogry-card-img" />
+                                <p>Babies & Toys</p>
+                            </div>
+                        </Link>
+                        <Link to={`/category/home`}  className="text-decoration-none text-dark">
+                            <div className="cateogry-card mt-5">
+                                <img src={img8} alt="" className="cateogry-card-img" />
+                                <p>Home & Lifestyle</p>
+                            </div>
+                        </Link>
+                        <Link to={`/category/sports`}  className="text-decoration-none text-dark">
+                            <div className="cateogry-card mt-5">
+                                <img src={img9} alt="" className="cateogry-card-img" />
+                                <p>Sports & Motorbike</p>
                             </div>
                         </Link>
 

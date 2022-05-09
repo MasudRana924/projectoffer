@@ -17,8 +17,8 @@ const CategoryItems = () => {
             {/* forsmall devices */}
             <div fluid className="small-category-section">
                 <div className="small-category-header">
-                    <Link to="/">{arrow} </Link>
-                    <p>Category</p>
+                    <Link to="/category">{arrow} </Link>
+                    <p>Products</p>
                     <div className="cart-search">
                         <Link to="/searchh" className="text-decoration-none "> <span className="ms-3 ps-3">{search} </span></Link>
                         <Link to="/cart" className="text-decoration-none"> <span className="ms-3">{Cart} </span></Link>
