@@ -7,14 +7,6 @@ initializeAuthentication()
 const useFirebase = () => {
     const [products, setProducts] = useState([])
     const [displayProducts, setDisplayProducts] = useState([])
-    // useEffect(() => {
-    //     fetch('https://obscure-badlands-58635.herokuapp.com/allproducts')
-    //         .then(res => res.json())
-    //         .then(data => {
-    //             setProducts(data)
-    //             setDisplayProducts(data)
-    //         })
-    // }, [])
     useEffect(() => {
         fetch('./products.json')
             .then(res => res.json())
@@ -24,22 +16,45 @@ const useFirebase = () => {
                 setDisplayProducts(data)
             })
     }, [])
-       
+
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     const [categoryProduct, setCategoryProduct] = useState([])
-    
+    const [categoryName, setCategoryName] = useState([])
+    const [categoryGender, setCategoryGender] = useState([])
+    const [categoryBrand, setCategoryBrand] = useState([])
+
     const HandleFilter = (catItem) => {
         const result = products.filter((catData) => {
             return (catData.category === catItem
             );
         });
-        handleClose()
+        setCategoryProduct(result);
+        setDisplayProducts(result)
+        setCategoryName(catItem)
+    }
+    const GenderFilter = (catGender) => {
+        const result = products.filter((catData) => {
+            return (catData.gender === catGender
+            );
+        });
+        setCategoryGender(result);
         setCategoryProduct(result);
         setDisplayProducts(result)
     }
-   
+    const BrandFilter = (catBrand) => {
+        const result = products.filter((catData) => {
+            return (catData.brand === catBrand
+            );
+        });
+        setCategoryBrand(result);
+        setCategoryGender(result);
+        setCategoryProduct(result);
+        setDisplayProducts(result)
+    }
+
+
 
 
 
@@ -156,7 +171,7 @@ const useFirebase = () => {
     }
 
     return {
-        products, displayProducts, setDisplayProducts,show,handleShow,handleClose,HandleFilter, categoryProduct,  user, registerUser, logInUser, admin, token, logOut, isLoading,
+        products, displayProducts, setDisplayProducts, show, handleShow, handleClose, HandleFilter,GenderFilter,BrandFilter, categoryProduct, categoryName, user, registerUser, logInUser, admin, token, logOut, isLoading,
         setError, error, handleEmail, handlePass, handleName, setUserName, email, pass, setUser, name, setLoading, cart, setCart
     }
 };

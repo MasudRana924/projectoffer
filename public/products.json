@@ -126,7 +126,8 @@
     "stock": "available",
     "brand": "Apex",
     "url": "https://www.apex4u.com/apex-mens-formal-shoe/p/17475081",
-    "category": "Apex",
+    "category": "Footwear",
+    "gender":"Menshoes",
     "view": 0
   },
   {
@@ -136,7 +137,8 @@
     "stock": "available",
     "brand": "Bata",
     "url": "https://www.batabd.com/collections/sneakers/products/hush-puppies-the-good-laceup-ladies-sneaker?variant=39829064843347",
-    "category": "Bata",
+    "category": "Footwear",
+    "gender":"Womenshoes",
     "view": 0
   },
   {
@@ -146,7 +148,8 @@
     "stock": "available",
     "brand": "Lotto",
     "url": "https://lotto.expressleather.com.bd/product/posh-lotto-running-shoes-bd/",
-    "category": "Lotto",
+    "category": "Footwear",
+    "gender":"Menshoes",
     "view": 0
   },
   {
@@ -213,7 +216,8 @@
     "name": "Titan Analog Brown Dial Men's Watch-NL1584SL04/NP1584SL04",
     "img": "https://m.media-amazon.com/images/I/713HTsZBZcL._UY500_.jpg",
     "price": 3000,
-    "category": "Titan",
+    "category": "Watches",
+    "gender":"Mens",
     "desc":"Dial Color: Brown, Case Shape: Round, Dial Glass Material: Mineral Band Color: Brown, Band Material: Leather. The watch has a buckle lock mechanism" ,
     "view": 0
   }

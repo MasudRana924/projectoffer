@@ -3,28 +3,31 @@ import { Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const FindCategoryItems = (props) => {
-    const { _id, name, img, price, url } = props.catProduct
+    const { _id, name, img, price, url,brand } = props.catProduct
     return (
-       
-        <Col>
-            <div className="search-product-card">
-                {/* <img src={`data:image/png;base64,${img}`}alt="" className="card-img" /> */}
-                <img src={img} alt="" className="card-img" />
-                <p>{name}</p>
-                <p className="price">Cost {price}tk/kg  </p>
+        <Col className="mt-3 ">
+            {
+                url ? <a href={url} target="_blank" rel="noopener noreferrer" className="text-decoration-none text-dark" >
+                    <div className="card-product">
+                        <img src={img} className="w-75 mx-auto card-image" alt="" />
+                        <p className="card-title mt-3">{name.slice(0, 20)}</p>
+                        <p className="price-text"> {price}TK</p>
 
-
-                {
-                    url ? <a href={url} target="_blank" rel="noopener noreferrer">
-                        <button className="btn-cart" >See Details</button>
-                    </a>
-                        :
-                        <Link to={`/details/${_id}`} className="text-decoration-none text-dark"><button className="btn-cart" >See Details</button>
-                        </Link>
-                }
-
-
-            </div>
+                        {
+                            brand ? <p className="brand-text">Brand : {brand}</p> : null
+                        }
+                    </div>
+                </a> : <Link to={`/details/${_id}`} className="text-decoration-none text-dark" >
+                    <div className="card-product">
+                        <img src={img} className="w-75 mx-auto card-image" alt="" />
+                        <p className="card-title mt-3">{name}</p>
+                        <p className="price-text">{price}TK</p>
+                        {
+                            brand ? <p className="brand-text">Brand : {brand}</p> : null
+                        }
+                    </div>
+                </Link>
+            }
 
         </Col>
     );
