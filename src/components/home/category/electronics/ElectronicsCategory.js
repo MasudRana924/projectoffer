@@ -22,14 +22,6 @@ const ElectronicsCategory = () => {
                 </Col>
                 <Col>
                     <div>
-                        <img src={img2} alt="" className="cat-img" />
-                        <Link to='/findcategory'>
-                            <button className="cat-btn" onClick={() => HandleFilter('MacBook')}>MacBook</button>
-                            </Link>
-                    </div>
-                </Col>
-                <Col>
-                    <div>
                         <img src={img3} alt="" className="cat-img" />
                         <Link to='/findcategory'>
                             <button className="cat-btn" onClick={() => HandleFilter('Laptop')}>Laptop</button>

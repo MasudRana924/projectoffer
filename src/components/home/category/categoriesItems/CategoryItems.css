@@ -2,21 +2,24 @@
     .cate-down-arrow-icon {
         color: black;
     }
-    .category-item{
+
+    .category-item {
         margin-left: -200px;
     }
-    .category-brand-item{
-        margin-left: -200px;
-        
+
+    .category-brand-item {
+        left: 0%;
+        width: 100%;
     }
-    .category-item-btn{
+
+    .category-item-btn {
         background-color: white;
-        border:white;
+        border: white;
         font-size: 12px;
         border-radius: 10px;
         margin-left: 10px;
+        color: gray;
     }
-   
 
 
 }

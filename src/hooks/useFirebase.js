@@ -44,8 +44,6 @@ const useFirebase = () => {
         setCategoryProduct(result);
         setCategoryGender(result);
         setCategoryBrand(result);
-     
-
     }
     const BrandFilter = (catBrand) => {
         const result = products.filter((catData) => {

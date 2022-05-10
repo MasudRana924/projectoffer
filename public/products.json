@@ -160,7 +160,7 @@
     "price": 2495,
     "img": "https://cdn.shopify.com/s/files/1/0305/5789/6843/products/IMG_2167_grande.jpg?v=1624691115",
     "stock": "sold out",
-    "brand": "Yellow",
+    "brand": "YellowShirt",
     "url": "https://www.yellowclothing.net/collections/templeton-shirts/products/m-u-formal-shirt-75",
     "category": "Shirt",
     "view": 0
@@ -170,7 +170,7 @@
     "price": 2295,
     "img": "https://richmanbd.com/wp-content/uploads/2021/12/20a-1.jpg",
     "stock": "available",
-    "brand": "Richman",
+    "brand": "RichmanShirt",
     "url": "https://richmanbd.com/product/mens-ultra-slim-fit-check-shirt-9/5",
     "category": "Shirt",
     "view": 0
@@ -180,7 +180,7 @@
     "price": 1660,
     "img": "https://easyfashion.com.bd/wp-content/uploads/2022/03/DSC9159-copy.jpg",
     "stock": "available",
-    "brand": "Easy",
+    "brand": "EasyShirt",
     "url": "https://easyfashion.com.bd/product/full-sleeve-regular-fit-shirt-summer-collection-2022-7/",
     "category": "Shirt",
     "view": 0
@@ -190,7 +190,7 @@
     "price": 72990,
     "img": "https://asia-exshopstatic-vivofs.vivo.com/KuCZNhz3cVxH4yrP/bd/1647757003315/c938f9ed445fdea65a7147b9032d1ead.jpg.webp",
     "stock": "in stock",
-    "brand": "Vivo",
+    "brand": "VivoPhone",
     "url": "https://shop.vivo.com/bd/product/2018?_ga=2.75913237.183689097.1648314760-1103019958.1648314760",
     "category": "Phone",
     "view": 0
@@ -200,9 +200,9 @@
     "price": 280000,
     "img": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-inch/macbook-pro-16-inch-01-500x500.jpg",
     "stock": "in stock",
-    "brand": "Apple",
+    "brand": "AppleMacBook",
     "url": "https://www.startech.com.bd/apple-macbook-pro-16-inch-m1-pro-chip-1tb-ssd-space-gray",
-    "category": "MacBook",
+    "category": "Laptop",
     "view": 0
   },
   {
@@ -210,7 +210,7 @@
     "price": 94900,
     "img": "https://waltonbd.com/image/catalog/tv/smart-tv/WE55RUG%20ID%20image/WE55RUG.jpg",
     "stock": "in stock",
-    "brand": "Walton",
+    "brand": "WaltonTV",
     "url": "https://waltonbd.com/television/4k-ultra-hd-tv/we55rug",
     "category": "TV",
     "view": 0
@@ -219,8 +219,9 @@
     "name": "Titan Analog Brown Dial Men's Watch-NL1584SL04/NP1584SL04",
     "img": "https://m.media-amazon.com/images/I/713HTsZBZcL._UY500_.jpg",
     "price": 3000,
-    "category": "Watches",
-    "gender":"Mens",
+    "category": "Titan",
+    "brand": "Titan",
+    "gender":"TitanMens",
     "desc":"Dial Color: Brown, Case Shape: Round, Dial Glass Material: Mineral Band Color: Brown, Band Material: Leather. The watch has a buckle lock mechanism" ,
     "view": 0
   }
