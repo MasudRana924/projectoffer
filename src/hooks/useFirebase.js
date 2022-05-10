@@ -24,6 +24,7 @@ const useFirebase = () => {
     const [categoryName, setCategoryName] = useState([])
     const [categoryGender, setCategoryGender] = useState([])
     const [categoryBrand, setCategoryBrand] = useState([])
+  
 
     const HandleFilter = (catItem) => {
         const result = products.filter((catData) => {
@@ -33,15 +34,18 @@ const useFirebase = () => {
         setCategoryProduct(result);
         setDisplayProducts(result)
         setCategoryName(catItem)
+
     }
     const GenderFilter = (catGender) => {
         const result = products.filter((catData) => {
             return (catData.gender === catGender
             );
         });
-        setCategoryGender(result);
         setCategoryProduct(result);
-        setDisplayProducts(result)
+        setCategoryGender(result);
+        setCategoryBrand(result);
+     
+
     }
     const BrandFilter = (catBrand) => {
         const result = products.filter((catData) => {
@@ -51,8 +55,8 @@ const useFirebase = () => {
         setCategoryBrand(result);
         setCategoryGender(result);
         setCategoryProduct(result);
-        setDisplayProducts(result)
     }
+   
 
 
 
@@ -171,7 +175,7 @@ const useFirebase = () => {
     }
 
     return {
-        products, displayProducts, setDisplayProducts, show, handleShow, handleClose, HandleFilter,GenderFilter,BrandFilter, categoryProduct, categoryName, user, registerUser, logInUser, admin, token, logOut, isLoading,
+        products, displayProducts, setDisplayProducts, show, handleShow, handleClose, HandleFilter, GenderFilter, BrandFilter, categoryProduct, categoryName, user, registerUser, logInUser, admin, token, logOut, isLoading,
         setError, error, handleEmail, handlePass, handleName, setUserName, email, pass, setUser, name, setLoading, cart, setCart
     }
 };

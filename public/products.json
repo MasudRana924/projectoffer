@@ -126,8 +126,9 @@
     "stock": "available",
     "brand": "Apex",
     "url": "https://www.apex4u.com/apex-mens-formal-shoe/p/17475081",
-    "category": "Footwear",
-    "gender":"Menshoes",
+    "category": "Apex",
+    "gender":"ApexMenshoes",
+    "type":"footwear",
     "view": 0
   },
   {
@@ -137,8 +138,9 @@
     "stock": "available",
     "brand": "Bata",
     "url": "https://www.batabd.com/collections/sneakers/products/hush-puppies-the-good-laceup-ladies-sneaker?variant=39829064843347",
-    "category": "Footwear",
-    "gender":"Womenshoes",
+    "category": "Bata",
+    "gender":"BataWomenshoes",
+    "type":"footwear",
     "view": 0
   },
   {
@@ -148,8 +150,9 @@
     "stock": "available",
     "brand": "Lotto",
     "url": "https://lotto.expressleather.com.bd/product/posh-lotto-running-shoes-bd/",
-    "category": "Footwear",
-    "gender":"Menshoes",
+    "category": "Lotto",
+    "gender":"LottoMenshoes",
+    "type":"footwear",
     "view": 0
   },
   {

@@ -7,7 +7,7 @@ import img2 from '../../../../images/bata.png'
 import img3 from '../../../../images/Lotto-Logo.jpg'
 
 const FootwearCategory = () => {
-    const { HandleFilter, GenderFilter } = useAuth()
+    const { HandleFilter, BrandFilter } = useAuth()
     return (
         <div>
             <Row xs="3">
@@ -15,7 +15,7 @@ const FootwearCategory = () => {
                     <div>
                         <img src={img} alt="" className="cat-img" />
                         <Link to='/findcategory'>
-                            <button className="cat-btn" onClick={() => HandleFilter('Footwear')}>Apex</button>
+                            <button className="cat-btn" onClick={() => HandleFilter('Apex')}>Apex</button>
                         </Link>
                     </div>
                 </Col>
@@ -23,7 +23,7 @@ const FootwearCategory = () => {
                     <div>
                         <img src={img2} alt="" className="cat-img" />
                         <Link to='/findcategory'>
-                            <button className="cat-btn" onClick={() => HandleFilter('Footwear')}>Bata</button>
+                            <button className="cat-btn" onClick={() => HandleFilter('Bata')}>Bata</button>
                         </Link>
                     </div>
                 </Col>
@@ -31,7 +31,7 @@ const FootwearCategory = () => {
                     <div>
                         <img src={img3} alt="" className="cat-img" />
                         <Link to='/findcategory'>
-                            <button className="cat-btn" onClick={() => HandleFilter('Footwear')}>Lotto</button>
+                            <button className="cat-btn" onClick={() => HandleFilter('Lotto')}>Lotto</button>
                         </Link>
                     </div>
                 </Col>
